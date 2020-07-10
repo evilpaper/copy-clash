@@ -3,22 +3,32 @@ import { Link } from "react-router-dom";
 import * as ROUTES from "../../constants/routes";
 
 const Navigation = () => (
-  <div>
-    <ul>
-      <li>
-        <Link to={ROUTES.SIGN_IN}>Sign In</Link>
+  <div className="navigation">
+    <ul className="navigation-list">
+      <li className="navigation-item">
+        <Link className="navigation-link" to={ROUTES.SIGN_IN}>
+          Sign In
+        </Link>
       </li>
       <li>
-        <Link to={ROUTES.LANDING}>Landing</Link>
+        <Link className="navigation-link" to={ROUTES.LANDING}>
+          Landing
+        </Link>
       </li>
       <li>
-        <Link to={ROUTES.HOME}>Home</Link>
+        <Link className="navigation-link" to={ROUTES.HOME}>
+          Home
+        </Link>
       </li>
       <li>
-        <Link to={ROUTES.ACCOUNT}>Account</Link>
+        <Link className="navigation-link" to={ROUTES.ACCOUNT}>
+          Account
+        </Link>
       </li>
       <li>
-        <Link to={ROUTES.ADMIN}>Admin</Link>
+        <Link className="navigation-link" to={ROUTES.ADMIN}>
+          Admin
+        </Link>
       </li>
     </ul>
   </div>

@@ -1,3 +1,15 @@
-div {
-  background-color: coral;
+.navigation {
+}
+
+.navigation-list {
+  display: flex;
+  list-style: none;
+}
+
+.navigation-item {
+}
+
+.navigation-link {
+  padding: 1em;
+  text-decoration: none;
 }
