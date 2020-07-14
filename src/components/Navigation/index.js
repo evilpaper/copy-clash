@@ -6,8 +6,8 @@ const Navigation = () => (
   <div className="navigation">
     <ul className="navigation-list">
       <li className="navigation-item">
-        <Link className="navigation-link" to={ROUTES.SIGN_IN}>
-          Sign In
+        <Link className="navigation-link" to={ROUTES.LANDING}>
+          Landing
         </Link>
       </li>
       <li className="navigation-item">
@@ -15,24 +15,24 @@ const Navigation = () => (
           Sign Up
         </Link>
       </li>
-      <li>
-        <Link className="navigation-link" to={ROUTES.LANDING}>
-          Landing
+      <li className="navigation-item">
+        <Link className="navigation-link" to={ROUTES.SIGN_IN}>
+          Sign In
         </Link>
       </li>
-      <li>
+      <li className="navigation-item">
         <Link className="navigation-link" to={ROUTES.HOME}>
           Home
         </Link>
       </li>
-      <li>
-        <Link className="navigation-link" to={ROUTES.ACCOUNT}>
-          Account
-        </Link>
-      </li>
-      <li>
+      <li className="navigation-item">
         <Link className="navigation-link" to={ROUTES.ADMIN}>
           Admin
+        </Link>
+      </li>
+      <li className="navigation-item">
+        <Link className="navigation-link" to={ROUTES.ACCOUNT}>
+          Account
         </Link>
       </li>
     </ul>
